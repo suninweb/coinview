@@ -21,4 +21,4 @@ Disallow:
 
 Sitemap: http://www.coinview.trade/sitemap.xml
 Sitemap: http://www.coinview.trade/sitemap-store.xml
-Host: www.coinview.trade
+Host: www.coinvi/Users/max/Documents/GitHub/coinview/sitemap.xmlew.trade
