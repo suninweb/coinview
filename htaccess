@@ -1,0 +1,165 @@
+ErrorDocument 403 /page28424136.html
+ErrorDocument 404 /page28424136.html
+
+DirectoryIndex page28386720.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =https
+RewriteCond %{HTTP_HOST} ^coinview\.trade [NC]
+RewriteRule ^(.*)$ https://www\.coinview\.trade/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteCond %{HTTP_HOST} ^coinview\.trade [NC]
+RewriteRule ^(.*)$ http://www\.coinview\.trade/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^defi-altcoins-price-charts$ page29015968.html [NC]
+RewriteRule ^defi-altcoins-price-charts/$ page29015968.html [NC]
+
+RewriteRule ^contact$ page28492582.html [NC]
+RewriteRule ^contact/$ page28492582.html [NC]
+
+RewriteRule ^altcoin-to-dollar-usdt-online-price$ page28490549.html [NC]
+RewriteRule ^altcoin-to-dollar-usdt-online-price/$ page28490549.html [NC]
+
+RewriteRule ^spoko$ page28448828.html [NC]
+RewriteRule ^spoko/$ page28448828.html [NC]
+
+RewriteRule ^usdt-domination-tether$ page28698684.html [NC]
+RewriteRule ^usdt-domination-tether/$ page28698684.html [NC]
+
+RewriteRule ^faq$ page28448851.html [NC]
+RewriteRule ^faq/$ page28448851.html [NC]
+
+RewriteRule ^dominacja-bitcoin-vs-altcoiny-vs-dolar$ page28500567.html [NC]
+RewriteRule ^dominacja-bitcoin-vs-altcoiny-vs-dolar/$ page28500567.html [NC]
+
+RewriteRule ^x100$ page28492934.html [NC]
+RewriteRule ^x100/$ page28492934.html [NC]
+
+RewriteRule ^discord$ page28492693.html [NC]
+RewriteRule ^discord/$ page28492693.html [NC]
+
+RewriteRule ^surowce$ page28596639.html [NC]
+RewriteRule ^surowce/$ page28596639.html [NC]
+
+RewriteRule ^newsletter$ page28500140.html [NC]
+RewriteRule ^newsletter/$ page28500140.html [NC]
+
+RewriteRule ^menu-gora$ page28387264.html [NC]
+RewriteRule ^menu-gora/$ page28387264.html [NC]
+
+RewriteRule ^pomoz-ulepszyc-ankieta$ page28492231.html [NC]
+RewriteRule ^pomoz-ulepszyc-ankieta/$ page28492231.html [NC]
+
+RewriteRule ^zalogowany2$ page28390107.html [NC]
+RewriteRule ^zalogowany2/$ page28390107.html [NC]
+
+RewriteRule ^zhaslem$ page28390619.html [NC]
+RewriteRule ^zhaslem/$ page28390619.html [NC]
+
+RewriteRule ^metale$ page28596707.html [NC]
+RewriteRule ^metale/$ page28596707.html [NC]
+
+RewriteRule ^akcje$ page28501994.html [NC]
+RewriteRule ^akcje/$ page28501994.html [NC]
+
+RewriteRule ^btc-domination-bitcoin$ page28697585.html [NC]
+RewriteRule ^btc-domination-bitcoin/$ page28697585.html [NC]
+
+RewriteRule ^blog/analizy-btc-week24$ page28464629.html [NC]
+RewriteRule ^blog/analizy-btc-week24/$ page28464629.html [NC]
+
+RewriteRule ^menu-dol$ page28387349.html [NC]
+RewriteRule ^menu-dol/$ page28387349.html [NC]
+
+RewriteRule ^blog$ page28464666.html [NC]
+RewriteRule ^blog/$ page28464666.html [NC]
+
+RewriteRule ^shop$ page28390952.html [NC]
+RewriteRule ^shop/$ page28390952.html [NC]
+
+RewriteRule ^premium2$ page28392261.html [NC]
+RewriteRule ^premium2/$ page28392261.html [NC]
+
+RewriteRule ^defi$ page28493217.html [NC]
+RewriteRule ^defi/$ page28493217.html [NC]
+
+RewriteRule ^indykatory$ page28463712.html [NC]
+RewriteRule ^indykatory/$ page28463712.html [NC]
+
+RewriteRule ^premium$ page28392290.html [NC]
+RewriteRule ^premium/$ page28392290.html [NC]
+
+RewriteRule ^secret$ page28389989.html [NC]
+RewriteRule ^secret/$ page28389989.html [NC]
+
+RewriteRule ^metaverse$ page28493273.html [NC]
+RewriteRule ^metaverse/$ page28493273.html [NC]
+
+RewriteRule ^play2earn$ page28493326.html [NC]
+RewriteRule ^play2earn/$ page28493326.html [NC]
+
+RewriteRule ^nft$ page28493507.html [NC]
+RewriteRule ^nft/$ page28493507.html [NC]
+
+RewriteRule ^nowi$ page28390568.html [NC]
+RewriteRule ^nowi/$ page28390568.html [NC]
+
+RewriteRule ^time$ page28398523.html [NC]
+RewriteRule ^time/$ page28398523.html [NC]
+
+RewriteRule ^bitcoin-dominacja$ page28423511.html [NC]
+RewriteRule ^bitcoin-dominacja/$ page28423511.html [NC]
+
+RewriteRule ^page404$ page28424136.html [NC]
+RewriteRule ^page404/$ page28424136.html [NC]
+
+RewriteRule ^altcoin-crypto-d$ page28445981.html [NC]
+RewriteRule ^altcoin-crypto-d/$ page28445981.html [NC]
+
+RewriteRule ^test$ page29013738.html [NC]
+RewriteRule ^test/$ page29013738.html [NC]
+
+RewriteRule ^nowe-konto-rejestracja$ page28523022.html [NC]
+RewriteRule ^nowe-konto-rejestracja/$ page28523022.html [NC]
+
+RewriteRule ^telegram$ page28524243.html [NC]
+RewriteRule ^telegram/$ page28524243.html [NC]
+
+RewriteRule ^altcoin-to-bitcoin-btc-online-price$ page28576908.html [NC]
+RewriteRule ^altcoin-to-bitcoin-btc-online-price/$ page28576908.html [NC]
+
+RewriteRule ^altcoin-to-ethereum-eth-online-price$ page28577474.html [NC]
+RewriteRule ^altcoin-to-ethereum-eth-online-price/$ page28577474.html [NC]
+
+RewriteRule ^altcoins-domination-alt$ page28698533.html [NC]
+RewriteRule ^altcoins-domination-alt/$ page28698533.html [NC]
+
+RewriteRule ^bitcoin-price-btc-usdt$ page28701201.html [NC]
+RewriteRule ^bitcoin-price-btc-usdt/$ page28701201.html [NC]
+
+RewriteRule ^quiz$ page29015500.html [NC]
+RewriteRule ^quiz/$ page29015500.html [NC]
+
+RewriteRule ^stopka$ page29015556.html [NC]
+RewriteRule ^stopka/$ page29015556.html [NC]
+
+RewriteRule ^metaverse-altcoins-price-charts$ page29016532.html [NC]
+RewriteRule ^metaverse-altcoins-price-charts/$ page29016532.html [NC]
+
+RewriteRule ^play-to-earn-altcoins-price-charts$ page29051558.html [NC]
+RewriteRule ^play-to-earn-altcoins-price-charts/$ page29051558.html [NC]
+
+RewriteRule ^nft-altcoins-price-charts$ page29051574.html [NC]
+RewriteRule ^nft-altcoins-price-charts/$ page29051574.html [NC]
+
+RewriteRule ^crypto-market-state$ page29879434.html [NC]
+RewriteRule ^crypto-market-state/$ page29879434.html [NC]
+
+RewriteRule ^members/ ma_start.html [NC]
+
+
